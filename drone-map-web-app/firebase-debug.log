@@ -1,0 +1,71 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/bin/nodejs /usr/bin/firebase serve
+[debug] CLI Version:  3.0.8
+[debug] Platform:     linux
+[debug] Node Version: v4.6.1
+[debug] Time:         Wed Dec 28 2016 18:45:56 GMT+0530 (IST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/charith/Desktop/work/codelab/codelab
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/bin/nodejs /usr/bin/firebase serve
+[debug] CLI Version:  3.0.8
+[debug] Platform:     linux
+[debug] Node Version: v4.6.1
+[debug] Time:         Wed Dec 28 2016 22:10:33 GMT+0530 (IST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/charith/Desktop/work/codelab/codelab
+[warn] ⚠  Port 5000 is not available. Trying another port...
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5001
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/bin/nodejs /usr/bin/firebase serve
+[debug] CLI Version:  3.0.8
+[debug] Platform:     linux
+[debug] Node Version: v4.6.1
+[debug] Time:         Thu Dec 29 2016 14:56:33 GMT+0530 (IST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/charith/Desktop/work/codelab/codelab
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/bin/nodejs /usr/bin/firebase serve
+[debug] CLI Version:  3.0.8
+[debug] Platform:     linux
+[debug] Node Version: v4.6.1
+[debug] Time:         Sun Jan 01 2017 08:35:31 GMT+0530 (IST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/charith/Desktop/work/codelab/codelab
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/bin/nodejs /usr/bin/firebase serve
+[debug] CLI Version:  3.0.8
+[debug] Platform:     linux
+[debug] Node Version: v4.6.1
+[debug] Time:         Tue Jan 03 2017 16:52:09 GMT+0530 (IST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/charith/Desktop/work/codelab/codelab
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000

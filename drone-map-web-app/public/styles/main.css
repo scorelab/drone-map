@@ -1,0 +1,19 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+#login-page {
+    display: table;
+    margin: auto;
+}
+#login-page {
+    display: table-cell;
+    vertical-align: middle;
+}
+#login-page {
+  margin: 0 !important;
+}
