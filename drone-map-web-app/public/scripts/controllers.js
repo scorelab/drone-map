@@ -18,3 +18,15 @@ droneMapApp.controller('signinController', ['$scope', 'headerFooterService', '$f
     headerFooterService.setHeaderAndFooter(false);
     console.log($scope.headerAndFooter.headerAndFooter());
 }]);
+
+droneMapApp.controller('signupController', ['$scope', 'headerFooterService', '$firebaseAuth', function($scope, headerFooterService, $firebaseAuth) {
+    console.log('signupController');
+    headerFooterService.setHeaderAndFooter(false);
+    console.log($scope.headerAndFooter.headerAndFooter());
+}]);
+
+droneMapApp.controller('forgotpasswordController', ['$scope', 'headerFooterService', '$firebaseAuth', function($scope, headerFooterService, $firebaseAuth) {
+    console.log('forgotpasswordController');
+    headerFooterService.setHeaderAndFooter(false);
+    console.log($scope.headerAndFooter.headerAndFooter());
+}]);

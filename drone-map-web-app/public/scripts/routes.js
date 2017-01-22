@@ -9,6 +9,14 @@ droneMapApp.config(['$routeProvider', '$locationProvider', function ($routeProvi
         templateUrl: 'pages/signin.html',
         controller: 'signinController'
     })
+    .when('/signup',{
+        templateUrl: 'pages/signup.html',
+        controller: 'signupController'
+    })
+    .when('/forgotpassword',{
+        templateUrl: 'pages/forgotpassword.html',
+        controller: 'forgotpasswordController'
+    })
     .otherwise({redirectTo: '/'});
     
 }]);
