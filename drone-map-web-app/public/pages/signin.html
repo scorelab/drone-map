@@ -1,50 +1,54 @@
-<section class="container">
-    <center>
-    <div id="login-page" class="row">
-    <div class="col s12 z-depth-6 card-panel">
-      <form class="login-form">
-        <div class="row">
-          <div class="input-field col s12 center">
-            <img src="http://w3lessons.info/logo.png" alt="" class="responsive-img valign profile-image-login">
-            <p class="center login-form-text">W3lessons - Material Design Login Form</p>
-          </div>
-        </div>
-        <div class="row margin">
-          <div class="input-field col s12">
-            <i class="mdi-social-person-outline prefix"></i>
-            <input class="validate" id="email" type="email">
-            <label for="email" data-error="wrong" data-success="right" class="center-align">Email</label>
-          </div>
-        </div>
-        <div class="row margin">
-          <div class="input-field col s12">
-            <i class="mdi-action-lock-outline prefix"></i>
-            <input id="password" type="password">
-            <label for="password">Password</label>
-          </div>
-        </div>
-        <div class="row">          
-          <div class="input-field col s12 m12 l12  login-text">
-              <input type="checkbox" id="remember-me" />
-              <label for="remember-me">Remember me</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <a href="login.html" class="btn waves-effect waves-light col s12">Login</a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s6 m6 l6">
-            <p class="margin medium-small"><a href="register.html">Register Now!</a></p>
-          </div>
-          <div class="input-field col s6 m6 l6">
-              <p class="margin right-align medium-small"><a href="forgot-password.html">Forgot password?</a></p>
-          </div>          
-        </div>
+<section class="container center">
+    <div class="section"></div>
+    
+    <h4 class="light-blue-text"><b>Drone Map</b></h4>
+    
+    <div class="section"></div>
+    
+    
+    <div class="container">
+        <div id="card" class="container card">
+            <div class="card-content">
+                <div class="section"></div>
+                <div class="row">
+                    <a class="auth-button waves-effect waves-light btn white black-text">
+                        <img class="auth-icon" src="https://www.gstatic.com/firebasejs/ui/0.5.0/images/auth/google.svg">
+                        <span class="auth-text" >Sign in with Google</span>
+                    </a>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <div class="section"></div>
+                
+                <div class="row" style="display: inline-block">
+                
+                    <form class="col s12" method="post">
 
-      </form>
+                        <div class='row'>
+                            <div class='input-field col s12'>
+                                <input class='validate' type='email' name='email' id='email' />
+                                <label for='email' class="light-blue-text">Enter your email</label>
+                            </div>
+                        </div>
+
+                        <div class='row'>
+                            <div class='input-field col s12'>
+                                <input class='validate light-blue-text' type='password' name='password' id='password' />
+                                <label for='password' class="light-blue-text">Enter your password</label>
+                            </div>
+                            <label style='float: right;'>
+                                <a class='light-blue-text' href='#/forgotpassword'><b>Forgot Password?</b></a>
+                            </label>
+                        </div>
+
+                        <div class='row'>
+                            <button type='submit' name='btn_login' style="text-align: center;" class='btn auth-button auth-text waves-effect light-blue'>Login</button>
+                        </div>
+                    </form>
+                    <a class='light-blue-text' href='#/signup'><b>Create Account</b></a>
+                </div>
+            </div>       
+        </div>
     </div>
-  </div>
-    </center>
 </section>

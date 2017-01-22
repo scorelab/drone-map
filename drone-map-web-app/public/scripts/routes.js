@@ -5,7 +5,7 @@ droneMapApp.config(['$routeProvider', '$locationProvider', function ($routeProvi
         templateUrl: 'pages/home.html',
         controller: 'homeController'
     })
-    .when('/auth',{
+    .when('/signin',{
         templateUrl: 'pages/signin.html',
         controller: 'signinController'
     })

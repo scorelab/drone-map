@@ -1,19 +1,42 @@
-html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+.input-field input[type=date]:focus + label,
+    .input-field input[type=text]:focus + label,
+    .input-field input[type=email]:focus + label,
+    .input-field input[type=password]:focus + label {
+      color: #03a9f4;
 }
-
-html,
-body {
-    height: 100%;
+.input-field input[type=date]:focus,
+    .input-field input[type=text]:focus,
+    .input-field input[type=email]:focus,
+    .input-field input[type=password]:focus {
+      border-bottom: 2px solid #03a9f4;
+      box-shadow: none;
 }
-#login-page {
-    display: table;
+#card {
     margin: auto;
+    max-width: 360px;
 }
-#login-page {
-    display: table-cell;
+.auth-button {
+    direction: ltr;
+    font-weight: 500;
+    height: 40px;
+    max-width: 220px;
+    padding-left: 16px;
+    text-align: left;
+    width: 100%;
+}
+.auth-icon {
+    height: 18px;
+    width: 18px;
+}
+.auth-icon {
+    border: none;
     vertical-align: middle;
+    display: inline-block;
 }
-#login-page {
-  margin: 0 !important;
+.auth-text {
+/*    color: #fff;*/
+    font-size: 14px;
+    padding-left: 16px;
+    text-transform: none;
+    vertical-align: middle;
 }
